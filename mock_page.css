@@ -1,0 +1,131 @@
+body {
+  min-width: 800px;
+  background-color: #C0C0C0;
+}
+
+.main-content {
+  margin-top: 50px;
+}
+
+.main-content p {
+  display: block;
+}
+
+.tabs {
+  width: 800px;
+  text-transform: uppercase;
+  margin: auto;
+  overflow: auto;
+  font-size: 17px;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.tabs * {
+  display: inline-block;
+  background-color: #E0E0E0;
+  padding: 10px 15px;
+  float: left;
+  border-radius: 5px 5px 0 0;
+}
+
+.tabs *:hover {
+  cursor: pointer;
+}
+
+.avail-formats-tab {
+  margin: 0 10px;
+}
+
+.tab-content {
+  width: 800px;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: auto;
+  padding: 50px;
+}
+
+.tab-content * {
+  display: inline-block;
+}
+
+.book-img {
+  width: 20%;
+  height: 100%;
+  float: left;
+  margin-right: 10px;
+}
+
+.book-img img {
+  width: 100%;
+}
+
+.book-content {
+  width: 78%;
+}
+
+.checkbox {
+  border: 1px solid #C0C0C0;
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.submit {
+  background-color: #0066FF;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  box-shadow: none;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.show-more-less, .show-more-less-discl {
+  border-bottom: 0;
+  color: #128fdc;
+  text-decoration: none;
+}
+
+.show-more-less:hover, .show-more-less-discl:hover {
+  text-decoration: underline;
+}
+
+.main-content p.hideable {
+  display: none;
+}
+
+.rel-courses .rel-courses-content {
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+}
+
+.table .table-header{
+  display: block;
+  border-bottom: 3px solid black;
+}
+
+.table-header span {
+  width: 32%;
+}
+
+.table-rows {
+  width: 100%;
+}
+
+.table-row {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #C0C0C0;
+  padding: 18px 0;
+}
+
+.table-row span {
+  width: 32%;
+}
